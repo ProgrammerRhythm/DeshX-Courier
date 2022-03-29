@@ -1,4 +1,34 @@
 .map-container{
-    height: auto;
-    background-color: block;
+    /* height: 80vh; */
+    background-color: black;
+}
+#map{
+    padding: 60px;
+}
+.textArea{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.textArea h1{
+    margin-bottom: 16px;
+    /* font-size: 30px; */
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.textArea h5{
+    color: rgb(255, 255, 255);
+    margin-bottom: 16px;
+}
+.styleBtns{
+    color: rgb(255, 255, 255);
+    background-color: rgb(235, 33, 39);
+    border-radius: 6px;
+    border: 1px solid rgb(235, 33, 39);
+    font-weight: bold;
+    padding: 10px 30px;
+    margin-bottom: 30px;
 }

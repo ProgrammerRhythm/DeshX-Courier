@@ -7,9 +7,9 @@ import service from '../../Images/customised-solutions.webp'
 const Services = () => {
     return (
         <div className="container">
-           <h1 className='title'><span id="color">We provide services</span> that you can rely on</h1>
+           <h1 className='title animate__animated animate__bounceIn animate__delay-1s'><span id="color">We provide services</span> that you can rely on</h1>
             <div className="row row-cols-1 row-cols-md-3 g-4">
-            <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+            <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 animate__animated animate__fadeInDown animate__delay-2s">
                 <div className="card h-100 style">
                 <img src={deliveryManPic} alt="" />
                 <div className="card-body">
@@ -18,7 +18,7 @@ const Services = () => {
                 </div>
                 </div>
             </div>
-            <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+            <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 animate__animated animate__fadeInDown animate__delay-2s">
                 <div className="card h-100 style">
                 <img src={stroe} alt="" />
                 <div className="card-body">
@@ -27,7 +27,7 @@ const Services = () => {
                 </div>
                 </div>
             </div>
-            <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+            <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 animate__animated animate__fadeInDown animate__delay-2s">
                 <div className="card h-100 style">
                 <img src={service} alt="" />
                 <div className="card-body">

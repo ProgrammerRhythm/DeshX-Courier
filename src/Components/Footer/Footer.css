@@ -1,0 +1,13 @@
+.Footer{
+    margin-top: 50px;
+    height: auto;
+    background-color: #f5f5f5;
+    padding: 30px 60px;
+    /* text-align: center; */
+}
+p{
+    color: rgb(66, 66, 66);
+}
+.gap{
+    margin-top: 15px;
+}
