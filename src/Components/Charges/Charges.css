@@ -1,0 +1,33 @@
+.styleIt{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 50px;
+}
+.styleIt h1{
+    font-weight: 750;
+}
+.styleIt h5{
+    margin-bottom: 25px;
+}
+.btns{
+    margin: 20px 15px;
+    padding: 5px;
+    border-bottom: 3px solid #41418c;
+}
+.setBorder{
+    border: 1px solid rgba(211, 211, 211, 0.55);
+    padding: 20px;
+    
+    /* border-radius: 2px; */
+}
+.setBorder h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.setBorder h5{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+

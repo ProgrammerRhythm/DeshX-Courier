@@ -1,0 +1,23 @@
+#color{
+    color: #41418c;
+}
+.title{
+    text-align: center;
+    font-weight: 650;
+    margin-bottom: 40px;
+}
+.style{
+    border-radius: 5px;
+    border: none !important;
+}
+.card img{
+    height: 500px;
+    width: auto !important;
+    
+}
+@media only screen and (max-width:991px) {
+    .card img{
+        height: 100%;
+        width: 100%;
+    }
+}

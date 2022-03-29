@@ -1,0 +1,35 @@
+.us{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 560;
+}
+.card{
+    border: none !important;
+    /* margin: 10px; */
+}
+.svgIcon img{
+    padding: 10px;
+    height: 100px;
+}
+.textCenter{
+    text-align: center;
+    color: #1B1E1A;
+    font-size: 18px;
+}
+.cardtCenter{
+    text-align: center;
+    color:#3a3a3a;
+}
+.card-text{
+    color:#3a3a3a;
+}
+
+#specialImg{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
