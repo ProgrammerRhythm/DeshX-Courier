@@ -9,6 +9,9 @@
     background-color: #ffffff;
     /* height: 85vh; */
 }
+/* .box{
+    display: none;
+} */
 .main{
     margin-top: 20px;
     margin-bottom: 80px;
@@ -61,7 +64,32 @@
     border-radius: 10px;
     box-shadow: inset 0 0 0 0 #41418c;
    }
-   
+.modal-content{
+    /* text-align: c÷enter!important; */
+    padding: 40px;
+}
+.modal-body{
+    text-align: center;
+}   
+#TakeNum{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    color: black;
+}
+#TakePassword{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    color: black;
+}
+.modal-footer{
+    justify-content: center;
+}
 .bttn button:hover {
     color: white;
     box-shadow: inset 0 -100px 0 0 #41418cd2;
@@ -70,6 +98,11 @@
 .bttn button:active {
     transform: scale(0.9);
    }
+
+.cross{
+    display: flex;
+    justify-content: center;
+}   
 @media only screen and (max-width:991px) {
     .responsive{
         display: flex;

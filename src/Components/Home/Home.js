@@ -8,7 +8,7 @@ import FaQs from '../FaQs/FaQs';
 import Footer from '../Footer/Footer';
 const Home = () => {
     return (
-        <div>
+        <div id="home">
             <Header></Header>
             <Services></Services>
             <About></About>
