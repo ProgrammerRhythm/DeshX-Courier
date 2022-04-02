@@ -1,6 +1,29 @@
 import React from 'react';
 import './Charges.css'
 const Charges = () => {
+
+    const click1 = document.getElementById('click1');
+    const click2 = document.getElementById('click2');
+    const click3 = document.getElementById('click3');
+
+    click1.addEventListener('click', function() {
+            click1.style.borderBottom = '3px solid #41418c';
+            click2.style.borderBottom = 'none';
+            click3.style.borderBottom = 'none';
+    }
+    )
+    click2.addEventListener('click', function() {
+        click2.style.borderBottom = '3px solid #41418c';
+        click1.style.borderBottom = 'none';
+        click3.style.borderBottom = 'none';
+    }
+    )
+    click3.addEventListener('click', function() {
+        click3.style.borderBottom = '3px solid #41418c';
+        click1.style.borderBottom = 'none';
+        click2.style.borderBottom = 'none';
+    }
+    )
     return (
 
         <div>
@@ -8,12 +31,12 @@ const Charges = () => {
             <h1 className='animate__animated animate__backInUp animate__delay-1s'>See your delivery charge</h1>
             <h5 className='animate__animated animate__backInUp animate__delay-1s'>Take a look at how much it will cost to send a parcel.</h5>
             
-            <div class="btn-group animate__animated animate__backInUp animate__delay-1s" role="group" aria-label="Basic example">
-            <button type="button" class="btn btns active" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1">Inside City</button>
-            <button type="button" class="btn btns"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">City Suburb</button>
-            <button type="button" class="btn btns"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">Outside City</button>
-            </div>
             
+            <div class="btn-group animate__animated animate__backInUp animate__delay-1s" role="group" aria-label="Basic example">
+            <button type="button" class="btn btns active" id="click1" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1">Inside City</button>
+            <button type="button" id="click2" class="btn btns"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">City Suburb</button>
+            <button type="button" class="btn btns" id="click3"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">Outside City</button>
+            </div>
 
             <div id="carouselExampleIndicators" class="carousel slide animate__animated animate__bounceIn animate__delay-1s" data-bs-ride="carousel">
             <div class="carousel-indicators">
