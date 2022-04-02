@@ -2,28 +2,28 @@ import React from 'react';
 import './Charges.css'
 const Charges = () => {
 
-    const click1 = document.getElementById('click1');
-    const click2 = document.getElementById('click2');
-    const click3 = document.getElementById('click3');
+    // const click1 = document.getElementById('click1');
+    // const click2 = document.getElementById('click2');
+    // const click3 = document.getElementById('click3');
 
-    click1.addEventListener('click', function() {
-            click1.style.borderBottom = '3px solid #41418c';
-            click2.style.borderBottom = 'none';
-            click3.style.borderBottom = 'none';
-    }
-    )
-    click2.addEventListener('click', function() {
-        click2.style.borderBottom = '3px solid #41418c';
-        click1.style.borderBottom = 'none';
-        click3.style.borderBottom = 'none';
-    }
-    )
-    click3.addEventListener('click', function() {
-        click3.style.borderBottom = '3px solid #41418c';
-        click1.style.borderBottom = 'none';
-        click2.style.borderBottom = 'none';
-    }
-    )
+    // click1.addEventListener('click', function() {
+    //         click1.style.borderBottom = '3px solid #41418c';
+    //         click2.style.borderBottom = 'none';
+    //         click3.style.borderBottom = 'none';
+    // }
+    // )
+    // click2.addEventListener('click', function() {
+    //     click2.style.borderBottom = '3px solid #41418c';
+    //     click1.style.borderBottom = 'none';
+    //     click3.style.borderBottom = 'none';
+    // }
+    // )
+    // click3.addEventListener('click', function() {
+    //     click3.style.borderBottom = '3px solid #41418c';
+    //     click1.style.borderBottom = 'none';
+    //     click2.style.borderBottom = 'none';
+    // }
+    // )
     return (
 
         <div>
