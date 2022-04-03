@@ -8,20 +8,17 @@ const Charges = () => {
 
     // click1.addEventListener('click', function() {
     //         click1.style.borderBottom = '3px solid #41418c';
-    //         click2.style.borderBottom = 'none';
-    //         click3.style.borderBottom = 'none';
+            
     // }
     // )
     // click2.addEventListener('click', function() {
     //     click2.style.borderBottom = '3px solid #41418c';
-    //     click1.style.borderBottom = 'none';
-    //     click3.style.borderBottom = 'none';
+        
     // }
     // )
     // click3.addEventListener('click', function() {
     //     click3.style.borderBottom = '3px solid #41418c';
-    //     click1.style.borderBottom = 'none';
-    //     click2.style.borderBottom = 'none';
+        
     // }
     // )
     return (
