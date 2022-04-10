@@ -1,8 +1,8 @@
 import React from 'react';
 import './Services.css'
-import deliveryManPic from '../../Images/delivery-man.png'
-import stroe from '../../Images/stroe.webp'
-import service from '../../Images/customised-solutions.webp'
+import deliveryManPic from '../../../Images/delivery-man.png'
+import stroe from '../../../Images/stroe.webp'
+import service from '../../../Images/customised-solutions.webp'
 
 const Services = () => {
     return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Map.css'
-import mapImg from '../../Images/bangladash-map.svg'
+import mapImg from '../../../Images/bangladash-map.svg'
 const Map = () => {
     return (
         <div className="map-container">
