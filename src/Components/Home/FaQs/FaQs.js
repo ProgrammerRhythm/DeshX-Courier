@@ -1,5 +1,6 @@
 import React from 'react';
 import "./FaQs.css"
+import { Link } from "react-router-dom";
 const FaQs = () => {
     return (
         <div className="container sscont">
@@ -55,7 +56,7 @@ const FaQs = () => {
                             <h5>Signing up takes only 2 mins</h5>
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 btnStyle">
-                        <button style={{padding: '15px 40px'}}  className="btn">Sing Up Now</button>
+                        <Link id="login" to="/signup"><button style={{padding: '15px 40px'}}   className="btn">Sign up</button></Link>
                             </div>
      
                     </div>

@@ -66,3 +66,7 @@
 .btnStyle button:hover{
     color: rgb(235, 227, 227);
 }
+#login{
+    color: white;
+    text-decoration: none;
+}

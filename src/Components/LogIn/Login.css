@@ -1,0 +1,17 @@
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    color:#3d3da2de!important;
+}
+
+.link{
+    text-decoration:none;
+    color:white;
+    }
+    .StyleIt button{
+    background-color:#3d3da2de;}
+    .StyleIt button:hover {background: white;}
+    .StyleIt button:hover > a {color:#3d3da2de}

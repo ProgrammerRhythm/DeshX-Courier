@@ -1,7 +1,46 @@
 .StyleIt{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction:column;
-    margin-top: 20px;
+    text-align: center;
+}
+.StyleIt input{
+    width: 350px;
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    margin: 12px;
+}
+.StyleIt hr{
+    width: 40%;
+    margin-left: 30%;
+    /* margin-right: 25%; */
+}
+#or{
+    color: gray;
+    margin: 5px;
+}
+.StyleIt button{
+    width: 350px;
+    margin: 5px 20px;
+    font-weight: 600;
+}
+@media only screen and (max-width:991px) {
+    .StyleIt input{
+        width: auto ;
+        padding: 8px 20px;
+        border-radius: 8px;
+        border: 1px solid gray;
+        margin: 12px;
+    }
+    .StyleIt hr{
+        width: auto;
+        margin-left: auto;
+    }
+    #or{
+        color: gray;
+        margin: 5px;
+    }
+    .StyleIt button{
+        width: auto;
+        margin: 5px 20px;
+        font-weight: 600;
+    }
 }
