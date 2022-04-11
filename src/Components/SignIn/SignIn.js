@@ -14,7 +14,7 @@ const sign = () => {
                     <input placeholder="Phone Number"type="phone"  id="Email" /><br />
                     {/* <h5>Password</h5> */}
                     <input placeholder="Password" type="password" id="" /> <br />
-                    <Link className='link' to="/signin"><button style={{padding: '10px 30px',borderRadius: '30px'}} className="btn styleBtn">Sign In</button></Link>
+                    <Link className='link' to="/dashboard"><button style={{padding: '10px 30px',borderRadius: '30px'}} className="btn styleBtn">Sign In</button></Link>
                     <p id="or">Or</p>
                     <hr />
                     <Link className='link' to="/signup"><button style={{padding: '10px 30px',borderRadius: '30px'}} className="btn styleBtn">Create Account</button></Link>

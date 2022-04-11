@@ -4,7 +4,7 @@ import logo from '../../Images/output-onlinegiftools.gif'
 const Navbar = () => {
     return (
         <div>
-               <div className="container header1">
+      <div className="container header1">
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
           <a className="navbar-brand animate__animated animate__fadeInLeft" href="/"><img style={{height: "80px"}} src={logo} alt="" /></a>
@@ -26,7 +26,7 @@ const Navbar = () => {
                 <a className="nav-link" href="/blog">Blog</a>
               </li>
               <li className="nav-item">
-                <button style={{padding: '10px 30px',borderRadius: '30px'}}  data-bs-toggle="modal" href="#exampleModalToggle" className="btn styleBtn">Sing in</button>
+                <button style={{padding: '10px 30px',borderRadius: '30px'}}  data-bs-toggle="modal" href="#exampleModalToggle"  className="btn styleBtn">Sing in</button>
               </li>
             </ul>
           </div>
