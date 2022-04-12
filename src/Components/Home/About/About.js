@@ -3,11 +3,11 @@ import './About.css'
 const About = () => {
     return (
         <div>
-            <h1 className="us animate__animated animate__slideInLeft animate__delay-2s">Why <span style={{color:'#41418c'}}>Us</span></h1>  
+            <h1 className="us">Why <span style={{color:'#41418c'}}>Us</span></h1>  
             <div className="container">
             <div className="row row-cols-1 row-cols-md-3 g-4 letMargin">
-                <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
-                    <div className="card svgIcon animate__animated animate__fadeInUp animate__delay-2s">
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 animate__animated animate__fadeInUp animate__delay-1s">
+                    <div className="card svgIcon">
                     <img src="https://ecourier.com.bd/wp-content/uploads/icon_solution.svg" alt="" />
                     <div className="card-body">
                         <h5 className="card-title textCenter">One Stop Solution</h5>
@@ -15,8 +15,8 @@ const About = () => {
                     </div>
                     </div>
                 </div>
-                <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
-                    <div className="card svgIcon animate__animated animate__fadeInUp animate__delay-2s">
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 animate__animated animate__fadeInUp animate__delay-1s">
+                    <div className="card svgIcon">
                     <img id="specialImg" src="https://ecourier.com.bd/wp-content/uploads/icon_wide_cover.svg" alt="" />
                     <div className="card-body">
                         <h5 className="card-title textCenter">Wide Coverage</h5>
@@ -24,8 +24,8 @@ const About = () => {
                     </div>
                     </div>
                 </div>
-                <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
-                    <div className="card svgIcon animate__animated animate__fadeInUp animate__delay-2s">
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 animate__animated animate__fadeInUp animate__delay-1s">
+                    <div className="card svgIcon">
                     <img src="https://ecourier.com.bd/wp-content/uploads/icon_track.svg" alt="" />
                     <div className="card-body">
                         <h5 className="card-title textCenter">Full Tracking</h5>
@@ -33,8 +33,8 @@ const About = () => {
                     </div>
                     </div>
                 </div>
-                <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
-                    <div className="card svgIcon animate__animated animate__fadeInUp animate__delay-2s">
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 animate__animated animate__fadeInUp animate__delay-2s">
+                    <div className="card svgIcon">
                     <img src="https://ecourier.com.bd/wp-content/uploads/icon_cash-hand.svg" alt="" />
                     <div className="card-body">
                         <h5 className="card-title textCenter">Delivery confirmation with OTP</h5>
@@ -42,8 +42,8 @@ const About = () => {
                     </div>
                     </div>
                 </div>
-                <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
-                    <div className="card svgIcon animate__animated animate__fadeInUp animate__delay-2s">
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 animate__animated animate__fadeInUp animate__delay-2s">
+                    <div className="card svgIcon">
                     <img src="https://ecourier.com.bd/wp-content/uploads/icon_truck_fast.svg" alt="" />
                     <div className="card-body">
                         <h5 className="card-title textCenter">Fastest Service</h5>
@@ -51,8 +51,8 @@ const About = () => {
                     </div>
                     </div>
                 </div>
-                <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
-                    <div className="card svgIcon animate__animated animate__fadeInUp animate__delay-2s">
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 animate__animated animate__fadeInUp animate__delay-2s">
+                    <div className="card svgIcon">
                     <img src="https://ecourier.com.bd/wp-content/uploads/icon_delivey.svg" alt="" />
                     <div className="card-body">
                         <h5 className="card-title textCenter">Cash on Delivery (COD)</h5>
