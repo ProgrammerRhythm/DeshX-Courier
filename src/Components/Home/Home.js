@@ -6,6 +6,8 @@ import Charges from "./Charges/Charges";
 import Map from "./Map/Map"
 import FaQs from './FaQs/FaQs';
 import Footer from './Footer/Footer';
+import './Home.css'
+
 const Home = () => {
     return (
         <div id="home">

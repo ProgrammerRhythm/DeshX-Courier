@@ -6,7 +6,7 @@ const About = () => {
             <h1 className="us animate__animated animate__slideInLeft animate__delay-2s">Why <span style={{color:'#41418c'}}>Us</span></h1>  
             <div className="container">
             <div className="row row-cols-1 row-cols-md-3 g-4 letMargin">
-                <div className="col">
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                     <div className="card svgIcon animate__animated animate__fadeInUp animate__delay-2s">
                     <img src="https://ecourier.com.bd/wp-content/uploads/icon_solution.svg" alt="" />
                     <div className="card-body">
@@ -15,7 +15,7 @@ const About = () => {
                     </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                     <div className="card svgIcon animate__animated animate__fadeInUp animate__delay-2s">
                     <img id="specialImg" src="https://ecourier.com.bd/wp-content/uploads/icon_wide_cover.svg" alt="" />
                     <div className="card-body">
@@ -24,7 +24,7 @@ const About = () => {
                     </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                     <div className="card svgIcon animate__animated animate__fadeInUp animate__delay-2s">
                     <img src="https://ecourier.com.bd/wp-content/uploads/icon_track.svg" alt="" />
                     <div className="card-body">
@@ -33,7 +33,7 @@ const About = () => {
                     </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                     <div className="card svgIcon animate__animated animate__fadeInUp animate__delay-2s">
                     <img src="https://ecourier.com.bd/wp-content/uploads/icon_cash-hand.svg" alt="" />
                     <div className="card-body">
@@ -42,7 +42,7 @@ const About = () => {
                     </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                     <div className="card svgIcon animate__animated animate__fadeInUp animate__delay-2s">
                     <img src="https://ecourier.com.bd/wp-content/uploads/icon_truck_fast.svg" alt="" />
                     <div className="card-body">
@@ -51,7 +51,7 @@ const About = () => {
                     </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                     <div className="card svgIcon animate__animated animate__fadeInUp animate__delay-2s">
                     <img src="https://ecourier.com.bd/wp-content/uploads/icon_delivey.svg" alt="" />
                     <div className="card-body">
