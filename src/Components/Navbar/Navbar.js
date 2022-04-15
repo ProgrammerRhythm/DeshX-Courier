@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../Images/output-onlinegiftools.gif'
 
 const Navbar = () => {
@@ -25,9 +26,7 @@ const Navbar = () => {
               <li className="nav-item">
                 <a className="nav-link" href="/blog">Blog</a>
               </li>
-              <li className="nav-item">
-                <button style={{padding: '10px 30px',borderRadius: '30px'}}  data-bs-toggle="modal" href="#exampleModalToggle"  className="btn styleBtn">Sing in</button>
-              </li>
+              <Link className='link' to="/signin"><button style={{padding: '10px 30px',borderRadius: '30px'}} className="btn styleBtn">Sign In</button></Link>
             </ul>
           </div>
         </div>

@@ -1,0 +1,30 @@
+.prc{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+
+.dropdown-menu {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    background: #fdfafa;
+    box-shadow: 15px 15px 30px #e3dddd, 15px -15px 30px #e1e1e1;
+}
+
+
+.bodys{
+    background-color: #f5f4f4;
+    height: 100vh;
+}
+.cards {
+    margin-top: 80px;
+    width: 38vw;
+    height: 10vh;
+    border-radius: 30px;
+    background: #eeecec;
+    box-shadow: 15px 15px 30px #d6d3d3,
+                -15px -15px 30px #ffffff;
+   }  
