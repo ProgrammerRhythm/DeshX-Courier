@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from '../../Images/output-onlinegiftools.gif'
 import './Dashboard.css'
-import DashboardDocument from './DashboardDocument';
-import DashboardNav from './DashboardNav';
-import ShowButtomNav from './ShowButtomNav';
+import DashboardDocument from './DashboardDocument/DashboardDocument';
+import DashboardNav from './DashboardNav/DashboardNav';
+import ShowButtomNav from './ShowButtomNav/ShowButtomNav';
 const Dashboard = (props) => {
   const name = 'Rhythm Munshi'
   return (
@@ -16,7 +16,7 @@ const Dashboard = (props) => {
           <div className="col-6 prc">
             <div className="dropdown">
               <button className="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                <img style={{ borderRadius: '50%', height: '40px', width: '40px' }} src={`https://avatars.abstractapi.com/v1/?api_key=792016207dd64ae38c42b470904c44f4&name=${'Rhythm'}`} alt="" />
+                <img style={{ borderRadius: '50%', height: '40px', width: '40px' }} src={`https://avatars.abstractapi.com/v1/?api_key=792016207dd64ae38c42b470904c44f4&name=${name}`} alt="" />
               </button>
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <li><a className="dropdown-item" href="/createparcel">Create Parcel</a></li>

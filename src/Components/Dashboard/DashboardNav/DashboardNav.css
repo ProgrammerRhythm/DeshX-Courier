@@ -1,0 +1,14 @@
+.navTextI{
+    /* font-size: 25px; */
+    padding: 3px 8px;
+    cursor: pointer;
+}
+.navTextA{
+    cursor: pointer;
+    color: #373785;
+}
+.navTextLi{
+    padding: 10px 15px;
+    font-size: 18px;
+    cursor: pointer;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
-import profile from '../../Images/avatar-man.png'
+import profile from '../../../Images/avatar-man.png'
+import './DashboardNav.css'
 const DashboardNav = (props) => {
     return (
         <div>
@@ -15,58 +16,58 @@ const DashboardNav = (props) => {
           <div className="sidemnenu mb-3">
             <ul className="aiz-side-nav-list px-2 ">
 
-              <li>
+              <li className="navTextLi">
                 <a href="/dashboard" className="navTextA">
-                  <i className="las la-home aiz-side-nav-icon"></i>
+                  <i className="las la-home navTextI aiz-side-nav-icon"></i>
                   <span className="navTextS">Dashboard</span>
                 </a>
               </li>
 
-              <li>
+              <li className="navTextLi">
                 <a href="/dashboard" className="navTextA">
-                <i className="las la-shopping-bag  fs-18 mr-2"></i>
+                <i className="las la-shopping-bag  navTextI ing-bag  fs-18 mr-2"></i>
                   <span className="navTextS">Parcel History</span>
                 </a>
               </li>
 
-              <li>
+              <li className="navTextLi">
                 <a href="/dashboard" className="navTextA">
-                  <i className="las la-home aiz-side-nav-icon"></i>
+                  <i className="las la-user navTextI aiz-side-nav-icon"></i>
                   <span className="navTextS">Manage Profile</span>
                 </a>
               </li>
 
-              <li>
+              <li className="navTextLi">
                 <a href="/dashboard" className="navTextA">
-                  <i className="las la-home aiz-side-nav-icon"></i>
+                  <i className="las la-plus navTextI aiz-side-nav-icon"></i>
                   <span className="navTextS">Create Parcel</span>
                 </a>
               </li>
 
-              <li>
+              <li className="navTextLi">
                 <a href="/dashboard" className="navTextA">
-                  <i className="las la-home aiz-side-nav-icon"></i>
+                <i class="las la-money-bill navTextI aiz-side-nav-icon"></i>
                   <span className="navTextS">Payment Method</span>
                 </a>
               </li>
 
-              <li>
+              <li className="navTextLi">
                 <a href="/dashboard" className="navTextA">
-                  <i className="las la-home aiz-side-nav-icon"></i>
+                  <i className="las la-file-alt navTextI aiz-side-nav-icon"></i>
                   <span className="navTextS">Coupon</span>
                 </a>
               </li>
 
-              <li>
+              <li className="navTextLi">
                 <a href="/dashboard" className="navTextA">
-                  <i className="las la-home aiz-side-nav-icon"></i>
+                <i class="las la-map navTextI"></i>
                   <span className="navTextS">Coverage Area</span>
                 </a>
               </li>
 
-              <li>
+              <li className="navTextLi">
                 <a href="/dashboard" className="navTextA">
-                  <i className="las la-home aiz-side-nav-icon"></i>
+                  <i className="las la-map-marker navTextI aiz-side-nav-icon"></i>
                   <span className="navTextS">Manage pickup location</span>
                 </a>
               </li>
