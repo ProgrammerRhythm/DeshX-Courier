@@ -56,7 +56,6 @@
     margin-top: 20px;
     border-radius: 8px;
     border: 1px solid #ebedf2;
-
 }
 
 /* .Card:hover{
@@ -73,11 +72,43 @@
 }
 
 .crtp{
-    padding: 40px;
+    padding: 30px;
     margin-top: 20px;
     border: 1px solid #ebedf2;
     border-radius: 8px;
 }
 .crtp h4{
     margin-bottom: 20px;
+}
+.navTextA{
+    text-decoration: none;
+}
+.p-2{
+    padding: 0px 45px!important;
+}
+@media only screen and (max-width:991px) {
+    .dashboardNav{
+        display: none;
+    }
+    .crtp{
+        padding: 10px;
+        margin-top: 20px;
+        border: 1px solid #ebedf2;
+        border-radius: 8px;
+        margin-left: 20px;
+        margin-bottom: 80px;
+    }
+    .Card{
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 8px;
+        border: 1px solid #ebedf2;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width:631px) {
+    .p-2{
+        padding: 0.2rem!important;
+    }
 }
