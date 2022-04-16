@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css'
-import headerLogo from '../../../Images/food-delivery1_ccexpress.png'
+import headerLogo from '../../../Images/food-delivery1_ccexpress (1).png'
 import Navbar from '../../Navbar/Navbar';
 const Header = () => {
     return (
