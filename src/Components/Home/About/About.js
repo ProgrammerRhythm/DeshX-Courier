@@ -12,7 +12,7 @@ const About = () => {
     })
     return (
         <div>
-            <h1 data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="10" className="us">Why <span style={{color:'#41418c'}}>Us</span></h1>  
+            <h1 data-aos="fade-zoom-in" className="us">Why <span style={{color:'#41418c'}}>Us</span></h1>  
             <div className="container">
             <div className="row row-cols-1 row-cols-md-3 g-4 letMargin">
                 <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4" data-aos="fade-up" data-aos-duration="3500">
