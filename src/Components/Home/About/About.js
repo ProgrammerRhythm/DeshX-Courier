@@ -1,12 +1,17 @@
-import React from 'react';
+import {useEffect} from 'react';
+import AOS  from 'aos';
+import 'aos/dist/aos.css';
 import './About.css'
 const About = () => {
+    useEffect(() => {
+        AOS.init();
+    })
     return (
         <div>
-            <h1 className="us">Why <span style={{color:'#41418c'}}>Us</span></h1>  
+            <h1 data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="10" className="us">Why <span style={{color:'#41418c'}}>Us</span></h1>  
             <div className="container">
             <div className="row row-cols-1 row-cols-md-3 g-4 letMargin">
-                <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 animate__animated animate__fadeInUp animate__delay-1s">
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4" data-aos="fade-up" data-aos-duration="3500">
                     <div className="card svgIcon">
                     <img src="https://ecourier.com.bd/wp-content/uploads/icon_solution.svg" alt="" />
                     <div className="card-body">
@@ -15,7 +20,7 @@ const About = () => {
                     </div>
                     </div>
                 </div>
-                <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 animate__animated animate__fadeInUp animate__delay-1s">
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4" data-aos="fade-up" data-aos-duration="3500">
                     <div className="card svgIcon">
                     <img id="specialImg" src="https://ecourier.com.bd/wp-content/uploads/icon_wide_cover.svg" alt="" />
                     <div className="card-body">
@@ -24,7 +29,7 @@ const About = () => {
                     </div>
                     </div>
                 </div>
-                <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 animate__animated animate__fadeInUp animate__delay-1s">
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4" data-aos="fade-up" data-aos-duration="3500">
                     <div className="card svgIcon">
                     <img src="https://ecourier.com.bd/wp-content/uploads/icon_track.svg" alt="" />
                     <div className="card-body">
@@ -33,7 +38,7 @@ const About = () => {
                     </div>
                     </div>
                 </div>
-                <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 animate__animated animate__fadeInUp animate__delay-2s">
+                <div data-aos="fade-up" data-aos-duration="3500" className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                     <div className="card svgIcon">
                     <img src="https://ecourier.com.bd/wp-content/uploads/icon_cash-hand.svg" alt="" />
                     <div className="card-body">
@@ -42,7 +47,7 @@ const About = () => {
                     </div>
                     </div>
                 </div>
-                <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 animate__animated animate__fadeInUp animate__delay-2s">
+                <div data-aos="fade-up" data-aos-duration="3500" className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                     <div className="card svgIcon">
                     <img src="https://ecourier.com.bd/wp-content/uploads/icon_truck_fast.svg" alt="" />
                     <div className="card-body">
@@ -51,7 +56,7 @@ const About = () => {
                     </div>
                     </div>
                 </div>
-                <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 animate__animated animate__fadeInUp animate__delay-2s">
+                <div data-aos="fade-up" data-aos-duration="3500" className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                     <div className="card svgIcon">
                     <img src="https://ecourier.com.bd/wp-content/uploads/icon_delivey.svg" alt="" />
                     <div className="card-body">
