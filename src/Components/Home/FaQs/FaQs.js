@@ -5,14 +5,18 @@ import "./FaQs.css"
 import { Link } from "react-router-dom";
 const FaQs = () => {
     useEffect(() => {
-        AOS.init();
+        AOS.init({
+            offset: 100,
+            duration: 1000,
+            easing: 'ease'
+        });
     })
     return (
         <div  className="container sscont">
-            <h1 data-aos="zoom-in-up" data-aos-duration="4500">Still have questions? We have answers!</h1>
-            <h5  data-aos="zoom-in-up" data-aos-duration="4500">Take a look at the most commonly asked questions. We are here to help.</h5>
+            <h1 data-aos="zoom-in-up">Still have questions? We have answers!</h1>
+            <h5  data-aos="zoom-in-up">Take a look at the most commonly asked questions. We are here to help.</h5>
 
-            <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0" class="accordion" id="accordionPanelsStayOpenExample">
+            <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" class="accordion" id="accordionPanelsStayOpenExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
@@ -54,7 +58,7 @@ const FaQs = () => {
                 </div>
 
 
-             <div data-aos="fade-up" data-aos-duration="3000" className="signUp">
+             <div data-aos="fade-up" className="signUp">
                     <div className="row">
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
                             <h1>Partner up with DeshX today</h1>

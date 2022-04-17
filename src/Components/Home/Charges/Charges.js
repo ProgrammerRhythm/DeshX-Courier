@@ -4,7 +4,11 @@ import 'aos/dist/aos.css';
 import './Charges.css'
 const Charges = () => {
     useEffect(() => {
-        AOS.init();
+        AOS.init({
+            offset: 100,
+            duration: 4000,
+            easing: 'ease'
+        });
     })
     // const click1 = document.getElementById('click1');
     // const click2 = document.getElementById('click2');
@@ -29,17 +33,17 @@ const Charges = () => {
 
         <div>
             <div className="container styleIt">
-            <h1 className='' data-aos="zoom-in-up" data-aos-duration="3000">See your delivery charge</h1>
-            <h5 className='' data-aos="zoom-in-up" data-aos-duration="3000">Take a look at how much it will cost to send a parcel.</h5>
+            <h1 className='' data-aos="zoom-in-up">See your delivery charge</h1>
+            <h5 className='' data-aos="zoom-in-up">Take a look at how much it will cost to send a parcel.</h5>
             
             
-            <div class="btn-group" data-aos="zoom-in-up" data-aos-duration="3000" role="group" aria-label="Basic example">
+            <div class="btn-group" data-aos="zoom-in-up" role="group" aria-label="Basic example">
             <button type="button" class="btn btns active" id="click1" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1">Inside City</button>
             <button type="button" id="click2" class="btn btns"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">City Suburb</button>
             <button type="button" class="btn btns" id="click3"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">Outside City</button>
             </div>
 
-            <div id="carouselExampleIndicators" class="carousel slide" data-aos="zoom-in-up" data-aos-duration="3000" data-bs-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-aos="zoom-in-up" data-bs-ride="carousel">
             <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>

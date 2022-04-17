@@ -4,7 +4,11 @@ import 'aos/dist/aos.css';
 import './About.css'
 const About = () => {
     useEffect(() => {
-        AOS.init();
+        AOS.init({
+            offset: 100,
+            duration: 1000,
+            easing: 'ease'
+        });
     })
     return (
         <div>
