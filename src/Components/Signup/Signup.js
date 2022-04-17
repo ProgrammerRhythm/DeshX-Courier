@@ -1,5 +1,5 @@
 import React from 'react';
-import './Login.css'
+import './Signup.css'
 import Navbar from '../Navbar/Navbar';
 import { Link } from "react-router-dom";
 
@@ -11,12 +11,9 @@ const Login = () => {
                 <h1>Sign Up</h1>
                 <div className="boxItem">
                     {/* <h5>Phone Number</h5> */}
-                    <input placeholder="Phone Number"type="phone" /><br />
-                    <input placeholder="Phone Number"type="phone" /><br />
-                    <input placeholder="Phone Number"type="phone" /><br />
-                    <input placeholder="Phone Number"type="phone" /><br />
-                    <input placeholder="Phone Number"type="phone" /><br />
-                    <input placeholder="Phone Number"type="phone" /><br />
+                    <input placeholder="Phone Number" type="phone" /><br />
+                    <input type="email" name="" id="" placeholder='Enter Email Address'/><br />
+                    <input type="text" name="" id="" placeholder="Enter your pickup address" /><br />
                     {/* <h5>Password</h5> */}
                     <input placeholder="Password" type="password" id="" /> <br />
                     <Link className='link' to="/signup"><button style={{padding: '10px 30px',borderRadius: '30px'}} className="btn styleBtn">Create Account</button></Link>
