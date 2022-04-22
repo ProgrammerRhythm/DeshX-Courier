@@ -22,6 +22,33 @@
     margin: 5px 20px;
     font-weight: 600;
 }
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    color:#3d3da2de!important;
+}
+
+#address{
+    padding: 10px;
+    border-radius: 10PX;
+    color: #4e4d4d;
+    /* width: 50px; */
+    /* text-align: center; */
+    border: 1px solid gray;
+}
+
+.link{
+    text-decoration:none;
+    color:white;
+    }
+.StyleIt button{
+background-color:#3d3da2de;
+}
+.StyleIt button:hover {background: white;}
+.StyleIt button:hover > a {color:#3d3da2de}
 @media only screen and (max-width:991px) {
     .StyleIt input{
         width: 250px;
