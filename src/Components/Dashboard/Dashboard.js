@@ -8,7 +8,7 @@ const Dashboard = () => {
   const jsonUser = localStorage.getItem('user');
   const user = JSON.parse(jsonUser)
   // console.log(user);
-  const {name,area,phone,email,location} = user;
+  const {name} = user;
   // const name = 'Rhythm Munshi'
   return (
     <div className="bodys">

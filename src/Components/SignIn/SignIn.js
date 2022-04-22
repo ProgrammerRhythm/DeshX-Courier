@@ -29,7 +29,7 @@ const Sign = () => {
       const handleSubmit = (e) => {
         const jsonUser = localStorage.getItem('user');
         const Luser = JSON.parse(jsonUser)
-        let {name,area,phone,email,location,password} = Luser;
+        let {phone,password} = Luser;
         phone = parseInt(phone)
         const Uphone = parseInt(user.phone)
         console.log(phone,Uphone);
