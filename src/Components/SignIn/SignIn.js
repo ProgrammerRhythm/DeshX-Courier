@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import Navbar from '../Navbar/Navbar';
 import './SignIn.css'
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Sign = () => {
 
     const [user,setUser] = useState({
-        isSigned: false,
+        isSigned: true,
         phone: '',
         password: ''
       })
@@ -25,10 +25,24 @@ const Sign = () => {
             setUser(newUserInfo);
         }
       }
+      const history = useNavigate()
       const handleSubmit = (e) => {
-        // console.log(user);
-        if (user.phone && user.password) {
-            
+        const jsonUser = localStorage.getItem('user');
+        const Luser = JSON.parse(jsonUser)
+        let {name,area,phone,email,location,password} = Luser;
+        phone = parseInt(phone)
+        const Uphone = parseInt(user.phone)
+        console.log(phone,Uphone);
+        if (user.phone.length > 10 && user.password.length > 6 && Uphone === phone && user.password===password) {
+            const newUserInfo = {...user}
+            newUserInfo.isSigned = true;
+            setUser(newUserInfo)
+            history('/dashboard')
+        }
+        else{
+            const newUserInfo = {...user}
+            newUserInfo.isSigned = false;
+            setUser(newUserInfo)
         }
         e.preventDefault();
       }
@@ -39,6 +53,9 @@ const Sign = () => {
                 <h1>Sign In</h1>
                 <div className="boxItem">
                     <form onSubmit={handleSubmit}>
+                     {
+                        !user.isSigned && <p style={{textAlign:'center'}}>Phone Number Or Password Incorrect</p>
+                     }   
                     <input name="phone" onBlur={handleBlur} placeholder="Phone Number"type="phone" required  id="Email" /><br />
                     {/* <h5>Password</h5> */}
                     <input name="password" onBlur={handleBlur} placeholder="Password" type="password" required id="" /> <br />

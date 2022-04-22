@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="container-fluid">
           <a className="navbar-brand animate__animated animate__fadeInLeft" href="/"><img style={{height: "80px"}} src={logo} alt="" /></a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="ri-menu-fill"></i>
+          <span class="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse justify-content-end animate__animated animate__fadeInRight" id="navbarNav">
             <ul className="navbar-nav responsive">

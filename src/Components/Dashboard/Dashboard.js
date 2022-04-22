@@ -4,8 +4,12 @@ import './Dashboard.css'
 import DashboardDocument from './DashboardDocument/DashboardDocument';
 import DashboardNav from './DashboardNav/DashboardNav';
 import ShowButtomNav from './ShowButtomNav/ShowButtomNav';
-const Dashboard = (props) => {
-  const name = 'Rhythm Munshi'
+const Dashboard = () => {
+  const jsonUser = localStorage.getItem('user');
+  const user = JSON.parse(jsonUser)
+  // console.log(user);
+  const {name,area,phone,email,location} = user;
+  // const name = 'Rhythm Munshi'
   return (
     <div className="bodys">
       <div className="container">

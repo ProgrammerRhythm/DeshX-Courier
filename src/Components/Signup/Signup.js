@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Signup.css'
 import Navbar from '../Navbar/Navbar';
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Login = () => {
 
@@ -9,7 +9,10 @@ const Login = () => {
         isSigned: false,
         name: '',
         email: '',
-        password: ''
+        password: '',
+        phone: '',
+        location : '',
+        area: '',
       })
 
 
@@ -18,6 +21,7 @@ const Login = () => {
             const newUserInfo = {...user}
             newUserInfo[e.target.name]=e.target.value;
             setUser(newUserInfo)
+            console.log(e.target.value);
         }
         if(e.target.name === 'phone'){
             const newUserInfo = {...user}
@@ -45,10 +49,18 @@ const Login = () => {
             setUser(newUserInfo)
         }
     }
+  
+    const history = useNavigate()
+
     const handleSubmit = (e) => {
-        // const {name,phone,email,password} = user;
-        const makeJson = JSON.stringify(user);
-        localStorage.setItem('user', makeJson);
+         if (user.phone.length > 10 && user.password.length > 6) {
+            const newUserInfo = {...user}
+            newUserInfo.isSigned = true;
+            setUser(newUserInfo)
+            const makeJson = JSON.stringify(user);
+            localStorage.setItem('user',makeJson);
+            history('/dashboard')
+        }
         e.preventDefault();
     }
     return (
