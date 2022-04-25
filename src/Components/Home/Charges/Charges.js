@@ -10,14 +10,13 @@ const Charges = () => {
             easing: 'ease'
         });
     })
-    // const click1 = document.getElementById('click1');
-    // const click2 = document.getElementById('click2');
-    // const click3 = document.getElementById('click3');
+//     const click1 = document.getElementById('click1');
+//     const click2 = document.getElementById('click2');
+//     const click3 = document.getElementById('click3');
 
-    // click1.addEventListener('click', function() {
-    //         click1.style.borderBottom = '3px solid #41418c';
-            
-    // }
+//     const handleClick = () => {
+//   click1.style.borderBottom = '3px solid #41418c';
+//             }
     // )
     // click2.addEventListener('click', function() {
     //     click2.style.borderBottom = '3px solid #41418c';

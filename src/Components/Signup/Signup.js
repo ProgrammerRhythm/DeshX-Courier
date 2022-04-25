@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './Signup.css'
-import Navbar from '../Navbar/Navbar';
 import { Link, useNavigate } from "react-router-dom";
 
 const Login = () => {
@@ -65,7 +64,6 @@ const Login = () => {
     }
     return (
         <div>
-            <Navbar></Navbar>
             <div className="container StyleIt">
                 <h1>Sign Up</h1>
                 <div className="boxItem">

@@ -1,0 +1,31 @@
+.svg{
+    height: 37vh;
+    margin: 25px;
+}
+.content-404 h3 {
+    margin: 30px auto 15px;
+    font-size: 36px;
+    line-height: 44px;
+    color: #01272d;
+    max-width: 480px;
+    font-weight: 600;
+}
+.content-404 p{
+    color: #58595b;
+    font-size: 16px;
+    line-height: 24px;
+}
+@media only screen and (max-width:991px) {
+    .svg{
+        height: auto;
+        margin: auto;
+    }
+    .content-404 h3 {
+        font-size: 24px;
+        line-height: 36px;
+        margin: 20px auto 15px;
+    }
+    .content-404 p, .content-404 .blog-details, .content-404 .job-details {
+        padding: 0 30px;
+    }
+}
