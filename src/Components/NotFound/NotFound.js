@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from '../Navbar/Navbar';
 import './Notfound.css'
 const NotFound = () => {
     const style = {
@@ -7,7 +8,9 @@ const NotFound = () => {
         height: '83vh',
     }
     return (
-        <div className='container d-flex flex-column align-items-center justify-content-center' style={style}>
+        <div className="container">
+        <Navbar></Navbar>
+        <div className='d-flex flex-column align-items-center justify-content-center' style={style}>
             <div className='content-404'>
                 <svg className='img-fluid svg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 751 323">
                     <path fill="#CCC" d="M280.3 322.2c-.4 0-.7-.3-.7-.7v-66.4c0-.4.3-.7.7-.7.4 0 .7.3.7.7v66.4c.1.4-.2.7-.7.7z"></path>
@@ -124,6 +127,7 @@ const NotFound = () => {
                 <p>Please check if your spelling is correct and try again</p>
                 <Link className='link' to="/home"><button style={{padding: '10px 30px',borderRadius: '30px'}} id="signIn" className="btn styleBtn">Go to Home</button></Link>
             </div>
+        </div>
         </div>
     );
 };

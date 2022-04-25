@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Navbar from '../Navbar/Navbar';
 import './SignIn.css'
 import { Link, useNavigate } from "react-router-dom";
 
@@ -47,6 +48,7 @@ const Sign = () => {
       }
     return (
         <div>
+            <Navbar></Navbar>
             <div className="container StyleIt">
                 <h1>Sign In</h1>
                 <div className="boxItem">
