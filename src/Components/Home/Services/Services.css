@@ -10,14 +10,14 @@
     border-radius: 5px;
     border: none !important;
 }
-.card img{
-    height: 500px;
-    width: auto !important;
+.style img{
+    max-width: 100%;
+    height: auto !important;
     
 }
 @media only screen and (max-width:991px) {
-    .card img{
-        height: 100%;
-        width: 100%;
+    .style img{
+        height: 500px;
+        /* width: 100%; */
     }
 }

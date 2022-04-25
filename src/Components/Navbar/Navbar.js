@@ -8,7 +8,9 @@ const Navbar = () => {
       <div className="container header1">
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
-          <a className="navbar-brand animate__animated animate__fadeInLeft" href="/"><img style={{height: "80px"}} src={logo} alt="" /></a>
+          <Link className='link navbar-brand animate__animated animate__fadeInLeft' to="/">
+            <img style={{height: "80px"}} src={logo} alt="" />
+          </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>

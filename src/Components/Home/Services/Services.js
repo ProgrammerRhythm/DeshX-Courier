@@ -2,9 +2,9 @@ import {useEffect} from 'react';
 import AOS  from 'aos';
 import 'aos/dist/aos.css';
 import './Services.css'
-import deliveryManPic from '../../../Images/delivery-man.png'
-import stroe from '../../../Images/stroe.webp'
-import service from '../../../Images/customised-solutions.webp'
+import deliveryManPic from '../../../Images/delivery.png'
+import stroe from '../../../Images/store.png'
+import service from '../../../Images/call.png'
 
 const Services = () => {
     useEffect(() => {
@@ -22,7 +22,7 @@ const Services = () => {
                 <div className="card h-100 style">
                 <img src={deliveryManPic} alt="" />
                 <div className="card-body">
-                    <h5 className="card-title">Parcel Delivery</h5>
+                    <h4 className="card-title">Parcel Delivery</h4>
                     <p className="card-text">First-mile pickup, last-mile delivery services for individuals (C2C), small businesses (B2C) and corporates (B2B).</p>
                 </div>
                 </div>
@@ -31,7 +31,7 @@ const Services = () => {
                 <div className="card h-100 style">
                 <img src={stroe} alt="" />
                 <div className="card-body">
-                    <h5 className="card-title">Warehouse</h5>
+                    <h4 className="card-title">Warehouse</h4>
                     <p className="card-text">Complete fulfillment solutions including storing, sorting, processing</p>
                 </div>
                 </div>
@@ -40,7 +40,7 @@ const Services = () => {
                 <div className="card h-100 style">
                 <img src={service} alt="" />
                 <div className="card-body">
-                    <h5 className="card-title">Customized Solutions</h5>
+                    <h4 className="card-title">Customized Solutions</h4>
                     <p className="card-text">Tailor made solutions for your unique business needs.</p>
                 </div>
                 </div>
