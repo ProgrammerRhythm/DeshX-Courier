@@ -11,7 +11,7 @@ const Sign = () => {
         password: ''
       })
       
-      const handleBlur = (e) => {
+      const HandleChange = (e) => {
         let fildValid = true;
         if(e.target.name === 'phone') {
             fildValid =  e.target.value > 10;
@@ -25,6 +25,21 @@ const Sign = () => {
             setUser(newUserInfo);
         }
       }
+
+    //   const handleBlur = (e) => {
+    //     let fildValid = true;
+    //     if(e.target.name === 'phone') {
+    //         fildValid =  e.target.value > 10;
+    //     }
+    //     else if (e.target.name === 'password') {
+    //         fildValid = e.target.value.length;
+    //     }
+    //     if (fildValid) {
+    //         const newUserInfo = {...user};
+    //         newUserInfo[e.target.name]=e.target.value;
+    //         setUser(newUserInfo);
+    //     }
+    //   }
       const history = useNavigate()
       const handleSubmit = (e) => {
         const jsonUser = localStorage.getItem('user');
@@ -54,11 +69,11 @@ const Sign = () => {
                 <div className="boxItem">
                     <form onSubmit={handleSubmit}>
                      {
-                        !user.isSigned && <p style={{textAlign:'center'}}>Phone Number Or Password Incorrect</p>
+                        !user.isSigned && <p style={{textAlign:'center',color: 'red'}}>Phone Number Or Password Incorrect</p>
                      }   
-                    <input name="phone" onBlur={handleBlur} placeholder="Phone Number"type="phone" required  id="Email" /><br />
+                    <input name="phone" onChange={HandleChange}  placeholder="Phone Number"type="phone" required  id="Email" /><br />
                     {/* <h5>Password</h5> */}
-                    <input name="password" onBlur={handleBlur} placeholder="Password" type="password" required id="" /> <br />
+                    <input name="password" onChange={HandleChange}  placeholder="Password" type="password" required id="" /> <br />
                     <input type="submit" value="Sign In" style={{padding: '10px 30px',borderRadius: '30px'}} className='styleBtn btn' />
                     <p id="or">Or</p>
                     <hr />
