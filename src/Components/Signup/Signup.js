@@ -70,14 +70,14 @@ const Login = () => {
                 <h1>Sign Up</h1>
                 <div className="boxItem">
                     <form onSubmit={handleSubmit}>
-                        <input onChange={handleBlur} placeholder="Name" type="text" name="name" id="" /> <br />
+                        <input onChange={handleBlur} required placeholder="Name" type="text" name="name" id="" /> <br />
                         <input onChange={handleBlur} required name="phone" placeholder="Phone Number" type="phone" /><br />
                         <input onChange={handleBlur} type="email" name="email" id="" placeholder='Email Address (Optional)' /><br />
                         <input onChange={handleBlur} type="text" required name="location" id="" placeholder="Enter your pickup address" /><br />
                         {/* <h5>Password</h5> */} 
                         <input onChange={handleBlur} required placeholder="Password" name="password" type="password"/> <br />
                         {/* <p>Select Nearest Zone</p> */}
-                        <select onChange={handleBlur} id="address" name="area">
+                        <select required onChange={handleBlur} id="address" name="area">
                             <Chekbox name='Dhaka'></Chekbox>
                             <Chekbox name='Dhaka'></Chekbox>
                             <Chekbox name='Dhaka'></Chekbox>
